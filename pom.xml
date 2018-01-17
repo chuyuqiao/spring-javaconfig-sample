@@ -46,6 +46,7 @@
         <version.jetty>9.4.8.v20171121</version.jetty>
         <version.commons-dbcp>1.4</version.commons-dbcp>
         <version.guice>4.1.0</version.guice>
+        <version.mapper>3.4.2</version.mapper>
 
         <!-- Version of maven plugins -->
         <version.plugin.maven-eclipse-plugin>2.9</version.plugin.maven-eclipse-plugin>
@@ -199,6 +200,12 @@
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
             <version>${version.guice}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
+            <version>${version.mapper}</version>
         </dependency>
 
     </dependencies>
